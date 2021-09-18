@@ -22,8 +22,12 @@ background-image: url(https://i.ibb.co/rk7fL58/KIO-bg2.png);
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 300px;
   pointer-events: none;
+}
+
+.App-logo-text {
+  margin-top: -32px;
 }
 
 .App-header {
@@ -32,6 +36,13 @@ background-image: url(https://i.ibb.co/rk7fL58/KIO-bg2.png);
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.App-footer {
+  font-family: 'Poppins', 'Montserrat', Helvetica, sans-serif;
+  font-size: 12px;
+  letter-spacing: .4px;
+  color: var(--text-color);
 }
 
 .App-link {
