@@ -1,0 +1,39 @@
+:root {
+  --bg-color: #EAC7C0;
+  --div-color: #FFE7E7;
+  --header-color: #703A57;
+  --text-color: #6C6E72;
+  --yellow: #F4C489;
+  --blue: #6E82bf;
+  --green: #bbba99;
+  --orange: #f2ae80;
+  --light-pink: #eac7c0;
+  --dark-pink: #dd9293;
+}
+
+.App {
+  text-align: center;
+background-image: url(https://i.ibb.co/rk7fL58/KIO-bg2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background: var(--bg-color);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-link {
+  color: var(--blue);
+}

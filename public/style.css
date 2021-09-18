@@ -1,0 +1,15 @@
+:root {
+  --bg-color: #EAC7C0;
+  --div-color: #FFE7E7;
+  --header-color: #703A57;
+  --text-color: #6C6E72;
+}
+
+body {
+  background-image: url(https://i.ibb.co/rk7fL58/KIO-bg2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background: var(--bg-color);
+}
