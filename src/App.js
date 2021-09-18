@@ -1,5 +1,5 @@
 import logo from './KIO-logo.png';
-import logoHeader from './KIO-text.png';
+import logoHeader from './KIO-text2.png';
 import './App.css';
 import Dictionary from "./Dictionary";
 
