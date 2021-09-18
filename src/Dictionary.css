@@ -1,0 +1,23 @@
+:root {
+  --bg-color: #EAC7C0;
+  --div-color: #FFE7E7;
+  --header-color: #703A57;
+  --text-color: #6C6E72;
+  --yellow: #F4C489;
+  --blue: #6E82bf;
+  --green: #bbba99;
+  --orange: #f2ae80;
+  --light-pink: #eac7c0;
+  --dark-pink: #dd9293;
+}
+
+.Dictionary {
+    margin: 30px 0px 0px 0px;
+}
+
+.Search-Bar {
+    border: none;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 50%;
+}

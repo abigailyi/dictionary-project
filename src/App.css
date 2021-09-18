@@ -43,6 +43,7 @@ background-image: url(https://i.ibb.co/rk7fL58/KIO-bg2.png);
   font-size: 12px;
   letter-spacing: .4px;
   color: var(--text-color);
+  margin: 30px 10px;
 }
 
 .App-link {
