@@ -56,7 +56,7 @@ if (loaded) {
             </section>
             <Results results={results}/>
             <Photos photos={photos} />
-            <div className="App-footer text-center">👩‍💻 Coded by <a href="https://eloquent-swartz-9918f7.netlify.app/" className="App-link" alt="Link to Abigail Yi's Portfolio Site">Abigail Yi</a> and is <a href="https://github.com/abigailyi/dictionary-project" className="App-link" alt="Link to Dictionary App GitHub Repository">open-sourced on GitHub</a> and is hosted on Netlify<br />
+            <div className="App-footer text-center">👩‍💻 Coded by <a href="https://eloquent-swartz-9918f7.netlify.app/" className="App-link" target="_blank" rel="noreferrer noopener" alt="Link to Abigail Yi's Portfolio Site">Abigail Yi</a> and is <a href="https://github.com/abigailyi/dictionary-project" className="App-link" target="_blank" rel="noreferrer noopener" alt="Link to Dictionary App GitHub Repository">open-sourced on GitHub</a> and is hosted on Netlify<br />
       ✏️ She also drew Owlbert our friendly, feathered helper and mascot!</div>
             </div>
         </div>
