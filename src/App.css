@@ -13,12 +13,11 @@
 
 .App {
   text-align: center;
-background-image: url(https://i.ibb.co/rk7fL58/KIO-bg2.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background: var(--bg-color);
+  background: url(./KIO-bg.png) no-repeat fixed;
+  margin: 0 auto;
+  max-width: 960px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .App-logo {
@@ -38,14 +37,14 @@ background-image: url(https://i.ibb.co/rk7fL58/KIO-bg2.png);
   justify-content: center;
 }
 
-.App-footer {
-  font-family: 'Poppins', 'Montserrat', Helvetica, sans-serif;
-  font-size: 12px;
-  letter-spacing: .4px;
-  color: var(--text-color);
-  margin: 30px 10px;
-}
+
 
 .App-link {
   color: var(--blue);
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(./KIO-bg-media.png);
+  }
 }

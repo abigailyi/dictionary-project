@@ -1,10 +1,12 @@
 import React from "react";
+import "./Synonyms.css";
 
 export default function Synonyms(props) {
     if (props.synonyms) {
     
     return (
-        <ul className="Synonyms">
+        <div className="Synonyms">
+        <ul><strong>Synonyms:</strong><br />
             {props.synonyms.map(function(synonym, index) {
                 return (
                     <li key={index}>
@@ -13,6 +15,7 @@ export default function Synonyms(props) {
                 );
             })}
             </ul>
+            </div>
     );
     } else {
         return null;

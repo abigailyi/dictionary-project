@@ -1,10 +1,27 @@
+:root {
+  --bg-color: #EAC7C0;
+  --div-color: #FFE7E7;
+  --header-color: #703A57;
+  --text-color: #6C6E72;
+  --yellow: #F4C489;
+  --blue: #6E82bf;
+  --green: #bbba99;
+  --orange: #f2ae80;
+  --light-pink: #eac7c0;
+  --dark-pink: #dd9293;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 0 auto;
+  font-family: 'Poppins', 'Montserrat', Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://i.ibb.co/rk7fL58/KIO-bg2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background: var(--bg-color);
 }
 
 code {

@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.css";
 import logo from './KIO-logo.png';
 import logoHeader from './KIO-text2.png';
 import './App.css';
@@ -12,10 +13,9 @@ function App() {
         <img src={logoHeader} className="App-logo-text img-fluid" alt="Know It Owl text" />
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="confetti" />
         </main>
-      <footer className="App-footer text-center">👩‍💻 Coded by <a href="https://eloquent-swartz-9918f7.netlify.app/" className="App-link" alt="Link to Abigail Yi's Portfolio Site">Abigail Yi</a> and is <a href="https://github.com/abigailyi/dictionary-project" className="App-link" alt="Link to Dictionary App GitHub Repository">open-sourced on GitHub</a> and is hosted on <a href="https://amazing-cori-f622f5.netlify.app/" className="App-link" alt="Link to Dictionary App hosted on Netlify">Netlify</a><br />
-      ✏️ She also drew Owlbert our friendly, feathered helper and mascot!</footer>
+        <br /><br />
       </div>
     </div>
   );
