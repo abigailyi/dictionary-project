@@ -62,8 +62,7 @@ if (loaded) {
         </div>
     )
     } else {
-        load();
+            load();
         return "Loading";
     }
-
-}
+    }

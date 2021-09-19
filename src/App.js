@@ -13,7 +13,7 @@ function App() {
         <img src={logoHeader} className="App-logo-text img-fluid" alt="Know It Owl text" />
       </header>
       <main>
-        <Dictionary defaultKeyword="confetti" />
+        <Dictionary defaultKeyword="candy" />
         </main>
         <br /><br />
       </div>
